@@ -1,0 +1,19 @@
+
+ This function will simply display the OS type on which it is executed.
+ It will help in making batch files little more advanced and effective.
+ In those cases when batch file is only meant for some particular ver.
+ of windows, then you can confirm the OS version via using this file.
+
+ Syntax: call OS [Result]
+ Syntax: call OS [help | /? | -h | -help]
+ Syntax: call OS ver
+
+ Where:-
+
+ Result			: No need of always specifying this parameter, it is a 
+			  special case parameter.In any case, if you needed the
+			  output to be saved directly into this variable instead
+			  of directly printing it on console.
+
+ www.thebateam.org
+ #TheBATeam
